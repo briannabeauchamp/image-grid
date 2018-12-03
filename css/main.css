@@ -13,7 +13,6 @@ html {
   line-height: 1.3;
 }
 
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -24,21 +23,21 @@ body {
 
 section {
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 .photo:nth-child(2) {
   display: none;
 }
+
 .photo:nth-child(5) {
-  display: none
+  display: none;
 }
 
- img {
+img {
   width: 100%;
   display: block;
 }
-
 
 @media only screen and (min-width: 25em) {
 
@@ -67,10 +66,12 @@ section {
     width: 50%;
   }
 
+}
+
 @media only screen and (min-width: 38em) {
 
   .photo:nth-child(5) {
-    display: none
+    display: none;
   }
 
   .photo:nth-child(2) {
