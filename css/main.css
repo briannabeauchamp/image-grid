@@ -92,22 +92,29 @@ section {
 
 @media only screen and (min-width: 60em) {
 
-  html {
-    font-size: 120%;
-    line-height: 1.5;
+  .photo:nth-child(1) {
+    display: inline-block;
+    width: 66.6666%;
   }
 
-  h1,
-  p {
-    margin: 0 0 1.5rem;
+  .photo:nth-child(2) {
+    display: inline-block;
+    width: 33.3333%;
   }
 
-}
+  .photo:nth-child(3) {
+    display: inline-block;
+    width: 33.3333%;
+  }
 
-@media only screen and (min-width: 90em) {
+  .photo:nth-child(4) {
+    display: inline-block;
+    width: 33.3333%;
+  }
 
-  html {
-    font-size: 130%;
+  .photo:nth-child(5) {
+    display: inline-block;
+    width: 33.3333%;
   }
 
 }
